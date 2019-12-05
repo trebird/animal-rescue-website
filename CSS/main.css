@@ -8,8 +8,21 @@ h1 {
   color: #dfebee;
 }
 
+ul {
+  display: inline;
+}
+
 header {
   background-color: #056577;
+}
+
+header ul {
+  display: none;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
 }
 
 .nav-check {
@@ -48,10 +61,20 @@ header {
   width: 100%;
 }
 
+ul {
+  width: 100%;
+  align-items: flex-end;
+}
+
 a {
   text-decoration: none;
   color: #dfebee;
 }
+
+.banner {
+  color: #fff;
+  overflow: visible;
+  }
 
 @media only screen and (min-width: 38em) {
 
