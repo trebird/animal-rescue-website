@@ -1,0 +1,68 @@
+html {
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  font-family: "Libre-Baskerville", serif;
+  font-weight: 400;
+  color: #dfebee;
+}
+
+header {
+  background-color: #056577;
+}
+
+.nav-check {
+  position: absolute;
+  top: -10em;
+}
+
+.nav-check:checked ~ ul {
+  display: flex;
+  text-align: center;
+  align-items: stretch;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-label {
+  position: absolute;
+  top: 26px;
+  right: 13px;
+  cursor: pointer;
+  display: inline-block;
+  width: 23px;
+}
+
+[type="checkbox"] + label::before {
+  position: absolute;
+  top: -10em;
+  right: 13px;
+  cursor: pointer;
+  display: inline-block;
+  width: 23px;
+}
+
+.nav-label img {
+  display: flex;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #dfebee;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav-check,
+  .nav-label {
+    display: none;
+    width: 0;
+  }
+
+  nav ul {
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
