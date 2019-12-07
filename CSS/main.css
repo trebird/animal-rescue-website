@@ -2,10 +2,14 @@ html {
   font-family: Montserrat, sans-serif;
 }
 
-h1 {
+h1, h2, h3, legend {
   font-family: "Libre-Baskerville", serif;
   font-weight: 400;
+}
+
+header a {
   color: #dfebee;
+  text-decoration: none;
 }
 
 ul {
@@ -66,15 +70,99 @@ ul {
   align-items: flex-end;
 }
 
-a {
+.banner a {
   text-decoration: none;
   color: #dfebee;
 }
 
 .banner {
   color: #fff;
-  overflow: visible;
+  overflow: hidden;
+  max-height: 30em;
   }
+
+.banner h2 {
+  color: #fff;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  overflow: visible;
+  padding: .375em 1em .42em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  font: inherit;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-ghost:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #fff;
+}
+.card img {
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px
+}
+
+.card {
+  background-color: #dfebee;
+  color: #000;
+  border-radius: 10px;
+  max-width: 15em;
+  max-height: 15em;
+}
+
+ol {
+  max-width: 55em;
+  margin: auto;
+}
+
+.form {
+  background-color: #81B1BA;
+}
+
+.form h1 {
+  color: #056577
+}
+
+.form p {
+  color: #fff;
+}
+
+.application {
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+input,
+textarea, select {
+  display: block;
+  width: 100%;
+  background-color: #dfebee;
+  border: none;
+  border-radius: 10px;
+}
+
+fieldset {
+  padding-left: 0;
+  padding-right: 0;
+  border: 0;
+  border-top: 1px solid #666;
+}
 
 @media only screen and (min-width: 38em) {
 
