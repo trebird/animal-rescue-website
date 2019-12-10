@@ -150,7 +150,6 @@ ol {
 input,
 textarea, select {
   display: block;
-  width: 100%;
   background-color: #dfebee;
   border: none;
   border-radius: 10px;
