@@ -4,7 +4,6 @@ html {
 
 h1, h2, h3, legend, .loyal {
   font-family: "Cardo", serif;
-  font-weight: 400;
 }
 
 header a, footer a {
@@ -113,14 +112,26 @@ ul {
 }
 .card img {
   overflow: hidden;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px
+}
+
+.intro-img {
+  border-top-left-radius: 400px;
+  border-top-right-radius: 400px;
+  border-bottom-left-radius: 400px;
+  border-bottom-right-radius: 400px;
+
+}
+
+.rescues {
+  max-width: 90em;
 }
 
 .card {
   background-color: #dfebee;
   color: #000;
-  border-radius: 10px;
+  border-radius: 20px;
   max-width: 15em;
   max-height: 15em;
 }
@@ -132,7 +143,11 @@ ol {
 
 .form {
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 40px;
+}
+
+.application img {
+
 }
 
 .application h1 {
@@ -177,6 +192,14 @@ label {
 
 ::-webkit-input-placeholder {
   color: #056577;
+}
+
+.rescues h1, .rescues select, .rescues label {
+  color: #770547;
+}
+
+.rescues select {
+  background-color: #eee0e8;
 }
 
 footer {
