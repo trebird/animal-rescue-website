@@ -180,7 +180,16 @@ label {
   color: #056577;
 }
 
-::-webkit-input-placeholder {
+.newsletter .btn {
+  background-color: #056577;
+}
+
+.newsletter .btn:hover {
+  background-color: #81b1b1;
+  border: solid 1px #81b1b1;
+}
+
+.newsletter h2 {
   color: #056577;
 }
 
