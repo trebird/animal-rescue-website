@@ -996,7 +996,7 @@ button,
   display: inline-block;
   margin: 0;
   overflow: visible;
-  padding: .375em .75em .42em;
+  padding: .375em 1em .42em;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;

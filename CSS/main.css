@@ -3,11 +3,11 @@ html {
 }
 
 .logo {
- height: 50px;
+  height: 50px;
 }
 
 h1, h2, h3, legend, .loyal {
-  font-family: "Cardo", serif;
+  font-family: Cardo, serif;
 }
 
 header a, footer a {
@@ -78,14 +78,12 @@ ul {
   color: #dfebee;
   overflow: hidden;
   max-height: 30em;
-  }
+}
 
 .btn {
   cursor: pointer;
   display: inline-block;
-  margin: 0;
   overflow: visible;
-  padding: .375em 1em .42em;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -103,13 +101,14 @@ ul {
 }
 
 .btn-ghost:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #7b8383;
   border: 1px solid #dfebee;
 }
+
 .card img {
   overflow: hidden;
   border-top-left-radius: 20px;
-  border-top-right-radius: 20px
+  border-top-right-radius: 20px;
 }
 
 .intro-img {
@@ -117,7 +116,6 @@ ul {
   border-top-right-radius: 400px;
   border-bottom-left-radius: 400px;
   border-bottom-right-radius: 400px;
-
 }
 
 .rescues {
@@ -130,11 +128,12 @@ ul {
   border-radius: 20px;
   max-width: 15em;
   max-height: 15em;
+  min-width: 9em;
+  min-height: 9em;
 }
 
 ol {
   max-width: 55em;
-  margin: auto;
 }
 
 .form {
@@ -142,20 +141,15 @@ ol {
   border-radius: 40px;
 }
 
-.application h1 {
-  color: #056577
-}
-
-.application p {
-  color: #fff;
+.application h1, .applicatiton p {
+  color: #03424e;
 }
 
 .application {
   background-color: #81b1ba;
 }
 
-input,
-textarea, select {
+input, textarea, select {
   display: block;
   background-color: #dfebee;
   border: none;
@@ -175,7 +169,7 @@ fieldset {
 
 .application .btn:hover {
   background-color: #81b1b1;
-  border: none;
+  border: solid 1px #81b1b1;
 }
 
 label {
