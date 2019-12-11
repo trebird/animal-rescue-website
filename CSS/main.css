@@ -2,12 +2,12 @@ html {
   font-family: Montserrat, sans-serif;
 }
 
-h1, h2, h3, legend {
+h1, h2, h3, legend, .loyal {
   font-family: "Cardo", serif;
   font-weight: 400;
 }
 
-header a {
+header a, footer a {
   color: #dfebee;
   text-decoration: none;
 }
@@ -132,7 +132,7 @@ ol {
 
 .form {
   background-color: #fff;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 .application h1 {
@@ -153,11 +153,10 @@ textarea, select {
   background-color: #dfebee;
   border: none;
   border-radius: 10px;
+  color: #056577;
 }
 
 fieldset {
-  padding-left: 0;
-  padding-right: 0;
   border: 0;
   border-top: 2px solid #056577;
   color: #056577;
@@ -178,6 +177,11 @@ label {
 
 ::-webkit-input-placeholder {
   color: #056577;
+}
+
+footer {
+  background-color: #770547;
+  color: #fff;
 }
 
 @media only screen and (min-width: 38em) {
