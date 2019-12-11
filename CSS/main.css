@@ -131,20 +131,20 @@ ol {
 }
 
 .form {
-  background-color: #81B1BA;
+  background-color: #fff;
+  border-radius: 15px;
 }
 
-.form h1 {
+.application h1 {
   color: #056577
 }
 
-.form p {
+.application p {
   color: #fff;
 }
 
 .application {
-  background-color: #fff;
-  border-radius: 15px;
+  background-color: #81b1ba;
 }
 
 input,
@@ -163,13 +163,21 @@ fieldset {
   color: #056577;
 }
 
-.form .btn {
+.application .btn {
   background-color: #056577;
 }
 
-.form .btn:hover {
+.application .btn:hover {
   background-color: #81b1b1;
   border: none;
+}
+
+label {
+  color: #056577;
+}
+
+::-webkit-input-placeholder {
+  color: #056577;
 }
 
 @media only screen and (min-width: 38em) {

@@ -10,7 +10,6 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cardo:700|Montserrat&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
   <ul class="skip-links">
@@ -18,7 +17,7 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <header class="grid gutter">
+  <header class="grid grid-middle gutter">
     <div class="unit xs-1 s-1 m-1-3 l-1-3">
       <a href="index.html">
         <h1 class="peta push-0 pad-t-1-2 pad-b-1-2">Loyal Rescue</h1>
@@ -38,73 +37,152 @@
     </nav>
   </header>
 
-  <main class="form max-lentgh">
-    <section class="max-length wrapper pad-t-2 pad-b-2 island">
-      <div class="island-1-8">
+  <main class="application">
+    <div class="max-length">
+
+      <div class="island-1-8 gutter push-0">
         <h1 class="zetta push-0 pad-t-2">The Perfect Match</h1>
-        <p class="push-2">We’re dedicated to finding the right fit for both you and your animal. The more we know about you, the better we can find a forever home for our rescues and a loving lasting connection.</p>
+        <p class="push kilo">We’re dedicated to finding the right fit for both you and your animal. The more we know about you, the better we can find a forever home for our rescues and a loving lasting connection.</p>
       </div>
-        <form class="application max-length island" method="POST" action="https://formspree.io/harv0084@algonquinlive.com">
-          <fieldset>
-            <legend class="tera pad-b-1-2">About you</legend>
+
+        <form class="gutter" action="https://formspree.io/harv0084@algonquinlive.com" method="post">
+            <div class="form island-2">
 
             <div class="grid">
-              <div class="name unit xs-1 s-1 m-1 l-1-2">
-                <div class="push island-1-8 ">
-                  <label for="name">Name</label>
-                  <input id="name" required>
+
+              <div class="unit xs-1 s-1 m-1 l-1">
+                <fieldset class="push-0">
+                <legend class="tera island-1-8 push-0">About you</legend>
+              </div>
+
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <div class="push-1-2 island-1-4">
+                  <label class="milli" for="dog-name">Name of the dog </label>
+                  <input id="dog-name">
                 </div>
               </div>
 
-              <div class="age unit xs-1 s-1 m-1 l-1-2">
-                <div class="push island-1-8">
-                  <label for="age">Age</label>
-                  <input id="age" required>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <div class="push-1-2 island-1-4">
+                  <label class="milli" for="name">Full Name</label>
+                  <input id="name">
                 </div>
               </div>
 
-              <div class="email unit xs-1 s-1 m-1 l-1-2">
-                <div class="push island-1-8">
-                  <label for="email">Email</label>
-                  <input id="email" type="email" name="email" required>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <div class="push-1-2 island-1-4">
+                  <label class="milli" for="age">Age</label>
+                  <input id="age">
                 </div>
               </div>
 
-              <div class="dropdown unit xs-1 s-1 m-1 l-1-2">
-                <div class="push island-1-8">
-                  <label for="dropdown">Dropdown</label>
-                  <select id="dropdown" name="dropdown">
-                    <option class="gutter">option</option>
-                    <option class="gutter">option</option>
-                    <option class="gutter">option</option>
-                    <option class="gutter">option</option>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <div class="push-1-2 island-1-4">
+                  <label class="milli" for="email">Your E-mail</label>
+                  <input type="email" id="email" placeholder="your@email.com">
+                </div>
+              </div>
+
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <div class="push-1-2 island-1-4">
+                  <label class="milli" for="phone">Phone</label>
+                  <input id="phone">
+                </div>
+              </div>
+
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <div class="push-1-2 island-1-4">
+                  <label class="milli" for="address">Address</label>
+                  <input id="address">
+                </div>
+              </div>
+
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <div class="push-1-2 island-1-4">
+                  <label class="milli" for="city">City</label>
+                  <input id="city">
+                </div>
+              </div>
+
+              <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+                <div class="push-1-2 island-1-4">
+                  <label class="milli" for="province">Province</label>
+                  <select id="province" name="province">
+                    <option class="province">AB</option>
+                    <option class="province">BC</option>
+                    <option class="province">MN</option>
+                    <option class="province">NB</option>
+                    <option class="province">NL</option>
+                    <option class="province">NS</option>
+                    <option class="province">ON</option>
+                    <option class="province">PE</option>
+                    <option class="province">QC</option>
+                    <option class="province">SK</option>
+                    <option class="province">NT</option>
+                    <option class="province">NU</option>
+                    <option class="province">YT</option>
                   </select>
                 </div>
               </div>
+
+              <div class="unit xs-1-2  s-1-2 m-1-4 l-1-4">
+                <div class="push-1-2 island-1-4">
+                  <label class="milli" for="postal">Postal Code</label>
+                  <input id="postal">
+                </div>
+              </div>
+
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <div class="push-1-2 island-1-4">
+                  <label class="milli" for="work">Employment Details</label>
+                  <input id="work">
+                </div>
+              </div>
+
+              <div class="unit xs-1 s-1 m-1-2 l-1-2 push-0">
+                <div class="push-1-2 island-1-4">
+                  <label class="milli" for="work-phone">Work Phone</label>
+                  <input id="work-phone">
+                </div>
+              </div>
             </div>
 
-            <div>
-              <label for="message">Message</label>
-              <textarea id="message"></textarea>
+            <div class="gutter-1-4 push">
+              <label class="milli" for="household">List all members of the household</label>
+              <label class="nano" for="household">Include names, ages, and any allergies </label>
+              <textarea id="household"></textarea>
             </div>
-          </fieldset>
 
-          <fieldset class="push-0">
-            <legend class="tera pad-b-1-2">Your Lifestyle</legend>
+            <div class="unit xs-1 s-1 m-1 l-1">
+              <fieldset class="push-1-2">
+              <legend class="tera island-1-8 push-0">Your Lifestyle</legend>
+            </div>
 
-            <div class="push island-1-8">
-              <label for="why">Why do you want to adopt a rescue?</label>
-              <textarea id="why" name="Why" required></textarea>
+              <div>
+                <div class="push-1-2 island-1-4">
+                  <label for="dropdown">Dropdown</label>
+                  <select id="dropdown" name="dropdown">
+                    <option class="dropdown">option</option>
+                    <option class="dropdown">option</option>
+                    <option class="dropdown">option</option>
+                    <option class="dropdown">option</option>
+                  </select>
+              </div>
             </div>
-            <div class="text-center push-0">
-              <button class="btn push-0" type="submit">Submit</button>
+
+            <div class="push-0 island-1-4">
+              <label for="allergies">Please list any allergies in household</label>
+              <textarea id="allergies"></textarea>
             </div>
-            <input type="hidden" name="_subject" value="submit">
-          </fieldset>
-        </form>
+
+            <div class="text-center">
+              <button class="btn" type="submit">Submit</button>
+            </div>
+
+          </form>
+        </div>
       </div>
-    </section>
-
+    </div>
   </main>
 </body>
 </html>

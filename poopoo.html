@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>poo poo</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:700|Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header class="grid gutter">
+    <div class="unit xs-1 s-1 m-1-3 l-1-3">
+      <a href="index.html">
+        <h1 class="peta push-0 pad-t-1-2 pad-b-1-2">Loyal Rescue</h1>
+      </a>
+    </div>
+    <nav class="unit xs-1 s-1 m-2-3 l-2-3 gutter-1-2 text-right" role="navigation" id="nav" tabindex="0">
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <img src="images/icon-hamburger.svg" alt="Open Navigation">
+      </label>
+      <ul class="list-group list-group-inline text-right push-0">
+        <li class="unit pad-b-1-2 pad-t-1-2"><a class="milli island-1-2" href="rescues.html">Rescues</a></li>
+        <li class="unit pad-b-1-2 pad-t-1-2"><a class="current milli island-1-2" href="adopt.html">Adopt</a></li>
+        <li class="unit pad-b-1-2 pad-t-1-2"><a class="milli island-1-2" href="#">Donate</a></li>
+        <li class="unit pad-b-1-4 pad-t-1-4"><a class="milli island-1-2" href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="form max-lentgh">
+    <section class="max-length wrapper pad-t-2 pad-b-2 island">
+      <div class="island-1-8">
+        <h1 class="zetta push-0 pad-t-2">The Perfect Match</h1>
+        <p class="push-2">We’re dedicated to finding the right fit for both you and your animal. The more we know about you, the better we can find a forever home for our rescues and a loving lasting connection.</p>
+      </div>
+        <form class="application max-length island" method="POST" action="https://formspree.io/harv0084@algonquinlive.com">
+          <fieldset>
+            <legend class="tera pad-b-1-2">About you</legend>
+
+            <div class="grid">
+              <div class="name unit xs-1 s-1 m-1 l-1-2">
+                <div class="push island-1-8 ">
+                  <label for="name">Name</label>
+                  <input id="name" required>
+                </div>
+              </div>
+
+              <div class="age unit xs-1 s-1 m-1 l-1-2">
+                <div class="push island-1-8">
+                  <label for="age">Age</label>
+                  <input id="age" required>
+                </div>
+              </div>
+
+              <div class="email unit xs-1 s-1 m-1 l-1-2">
+                <div class="push island-1-8">
+                  <label for="email">Email</label>
+                  <input id="email" type="email" name="email" required>
+                </div>
+              </div>
+
+              <div class="dropdown unit xs-1 s-1 m-1 l-1-2">
+                <div class="push island-1-8">
+                  <label for="province">Province</label>
+                  <select id="province">
+                    <option class="province">AB</option>
+                    <option class="province">BC</option>
+                    <option class="province">MN</option>
+                    <option class="province">NB</option>
+                    <option class="province">NL</option>
+                    <option class="province">NS</option>
+                    <option class="province">ON</option>
+                    <option class="province">PE</option>
+                    <option class="province">QC</option>
+                    <option class="province">SK</option>
+                    <option class="province">NT</option>
+                    <option class="province">NU</option>
+                    <option class="province">YT</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message"></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset class="push-0">
+            <legend class="tera pad-b-1-2">Your Lifestyle</legend>
+
+            <div class="push island-1-8">
+              <label for="why">Why do you want to adopt a rescue?</label>
+              <textarea id="why" name="Why" required></textarea>
+            </div>
+            <div class="text-center push-0">
+              <button class="btn push-0" type="submit">Submit</button>
+            </div>
+            <input type="hidden" name="_subject" value="submit">
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>

@@ -12,35 +12,66 @@
 </head>
 <body>
 
-  <form action="https://formspree.io/harv0084@algonquinlive.com" method="post">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
 
-    <div>
-      <label for="name">Name</label>
-      <input id="name">
+  <header class="grid grid-middle gutter">
+    <div class="unit xs-1 s-1 m-1-3 l-1-3">
+      <a href="index.html">
+        <h1 class="peta push-0 pad-t-1-2 pad-b-1-2">Loyal Rescue</h1>
+      </a>
     </div>
+    <nav class="unit xs-1 s-1 m-2-3 l-2-3 gutter-1-2 text-right" role="navigation" id="nav" tabindex="0">
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <img src="images/icon-hamburger.svg" alt="Open Navigation">
+      </label>
+      <ul class="list-group list-group-inline text-right push-0">
+        <li class="unit pad-b-1-2 pad-t-1-2"><a class="milli island-1-2" href="rescues.html">Rescues</a></li>
+        <li class="unit pad-b-1-2 pad-t-1-2"><a class="current island-1-2" href="adopt.html">Adopt</a></li>
+        <li class="unit pad-b-1-2 pad-t-1-2"><a class="milli island-1-2" href="#">Donate</a></li>
+        <li class="unit pad-b-1-4 pad-t-1-4"><a class="milli island-1-2" href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="application  max-length">
 
-    <div>
-      <label for="email">Your E-mail</label>
-      <input type="email" id="email" placeholder="your@email.com">
+    <div class="island-1-8 gutter">
+      <h1 class="zetta push-0 pad-t-2">The Perfect Match</h1>
+      <p class="push-2">We’re dedicated to finding the right fit for both you and your animal. The more we know about you, the better we can find a forever home for our rescues and a loving lasting connection.</p>
     </div>
+    <form class="gutter" action="https://formspree.io/harv0084@algonquinlive.com" method="post">
 
-    <div>
-      <label for="subject">Subject</label>
-      <select id="subject">
-        <option>Just saying hi!</option>
-        <option>Want to talk about dinosaurs!</option>
-        <option>I dunno.</option>
-      </select>
-    </div>
+      <div class="push">
+        <label for="name">Full Name</label>
+        <input id=" firstname">
+      </div>
 
-    <div>
-      <label for="message">Message</label>
-      <textarea id="message"></textarea>
-    </div>
+      <div class="push">
+        <label for="email">Your E-mail</label>
+        <input type="email" id="email" placeholder="your@email.com">
+      </div>
 
-    <button type="submit">Send</button>
+      <div class="push">
+        <label for="subject">Subject</label>
+        <select id="subject">
+          <option>Option</option>
+          <option>Option</option>
+          <option>Option</option>
+        </select>
+      </div>
 
-  </form>
+      <div class="push">
+        <label for="message">Message</label>
+        <textarea id="message"></textarea>
+      </div>
+      <div class="text-center">
+        <button class="btn" type="submit">Submit</button>
+      </div>
 
+    </form>
+  </div>
 </body>
 </html>

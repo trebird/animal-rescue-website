@@ -731,7 +731,7 @@ optgroup {
 
 ::-webkit-input-placeholder {
   color: inherit;
-  opacity: .54;
+  opacity: 100;
 }
 
 ::-webkit-file-upload-button {
