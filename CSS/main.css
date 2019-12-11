@@ -28,6 +28,10 @@ nav {
   text-align: center;
 }
 
+a:hover {
+  color: #eee0e8;
+}
+
 .nav-check {
   position: absolute;
   top: -10em;
@@ -182,6 +186,15 @@ label {
 
 .rescues h1, .rescues select, .rescues label {
   color: #770547;
+}
+
+.search {
+  background-color: #770547;
+}
+
+.search:hover {
+  background-color: #ba81a2;
+  border: solid 1px #ba81a2;
 }
 
 .rescues select {
