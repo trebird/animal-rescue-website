@@ -91,7 +91,7 @@ ul {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 1px solid #dfebee;
   color: #dfebee;
   font: inherit;
@@ -178,6 +178,34 @@ fieldset {
 
 label {
   color: #056577;
+}
+
+.loyal {
+  background-color: #dfebee;
+}
+
+.loyal h2 {
+  color: #056577;
+
+}
+
+.loyal-img {
+  border-top-left-radius: 400px;
+  border-top-right-radius: 400px;
+  border-bottom-left-radius: 400px;
+  border-bottom-right-radius: 400px;
+}
+
+.compassion {
+  background-color: #eee0e8;
+
+}
+
+.compassion p, .newsletter p {
+  line-height: 1.2rem;
+}
+.compassion h3 {
+  color: #770547;
 }
 
 .newsletter .btn {
