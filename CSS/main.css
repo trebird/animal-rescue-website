@@ -11,10 +11,6 @@ header a, footer a {
   text-decoration: none;
 }
 
-ul {
-  display: inline;
-}
-
 header {
   background-color: #056577;
 }
@@ -75,14 +71,10 @@ ul {
 }
 
 .banner {
-  color: #fff;
+  color: #dfebee;
   overflow: hidden;
   max-height: 30em;
   }
-
-.banner h2 {
-  color: #fff;
-}
 
 .btn {
   cursor: pointer;
@@ -94,8 +86,8 @@ ul {
   -moz-appearance: none;
   appearance: none;
   border-radius: 10px;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #dfebee;
+  color: #dfebee;
   font: inherit;
   text-decoration: none;
 }
@@ -108,7 +100,7 @@ ul {
 
 .btn-ghost:hover {
   background-color: rgba(255, 255, 255, 0.5);
-  border: 1px solid #fff;
+  border: 1px solid #dfebee;
 }
 .card img {
   overflow: hidden;
@@ -144,10 +136,6 @@ ol {
 .form {
   background-color: #fff;
   border-radius: 40px;
-}
-
-.application img {
-
 }
 
 .application h1 {
@@ -220,3 +208,5 @@ footer {
     flex-wrap: wrap;
     flex-direction: row;
   }
+
+}
