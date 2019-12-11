@@ -6,7 +6,7 @@ html {
   height: 50px;
 }
 
-h1, h2, h3, legend, .loyal {
+h1, h2, h3, legend{
   font-family: Cardo, serif;
 }
 
@@ -91,7 +91,7 @@ ul {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 1px solid #dfebee;
   color: #dfebee;
   font: inherit;
