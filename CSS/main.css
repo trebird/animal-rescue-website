@@ -3,7 +3,7 @@ html {
 }
 
 .logo {
-  height: 50px;
+  height: 40px;
 }
 
 h1, h2, h3, legend{
@@ -12,6 +12,9 @@ h1, h2, h3, legend{
 
 header a, footer a {
   color: #dfebee;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -28,7 +31,7 @@ nav {
   text-align: center;
 }
 
-a:hover {
+nav a:hover {
   color: #eee0e8;
 }
 
