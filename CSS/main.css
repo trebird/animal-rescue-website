@@ -3,7 +3,7 @@ html {
 }
 
 .logo {
-  height: 40px;
+  height: 35px;
 }
 
 h1, h2, h3, legend {
@@ -12,10 +12,6 @@ h1, h2, h3, legend {
 
 header a, footer a {
   color: #dfebee;
-}
-
-a {
-  text-decoration: none;
 }
 
 header {
@@ -59,7 +55,7 @@ nav a:hover {
 
 [type="checkbox"] + label::before {
   position: absolute;
-  top: -10em;
+  top: -9em;
   right: 13px;
   cursor: pointer;
   display: inline-block;
@@ -256,6 +252,10 @@ label {
 footer {
   background-color: #770547;
   color: #fff;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 38em) {

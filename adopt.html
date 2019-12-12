@@ -41,24 +41,25 @@
   </header>
 
   <main class="application" role="main" id="main" tabindex="0">
-    <section class="max-length pad-b-2 gutter-1-2">
-      <div class="grid grid-middle pad-t-2 push">
-        <div class="unit xs-1 s-1 m-1-3 l-1-3 island">
-          <div class="embed embed-1by1">
-            <img class="embed-item img-flex intro-img" src="images/application.jpg" alt="image of a hand petting puppy">
-          </div>
-        </div>
-        <div class="unit s-1 m-2-3 l-2-3 island-1-2 gutter-1-2 push-0 max-width">
-          <h1 class="push-1-4">The Perfect Match</h1>
-          <p class="push milli">We’re dedicated to finding the right fit for both you and your animal. The more we know about you, the better we can find a forever home for our rescues and a loving lasting connection.</p>
-        </div>
 
+    <article class="max-length pad-b-1-2 gutter-1-2 grid grid-middle pad-t-2 push" id="introduction" tabindex="0">
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 island-1-2 gutter">
+        <div class="embed embed-1by1">
+          <img class="embed-item img-flex intro-img" src="images/application.jpg" alt="image of a hand petting puppy">
+        </div>
       </div>
-      <form action="https://formspree.io/harv0084@algonquinlive.com" method="post">
-        <div class="form island-2">
+      <div class="unit s-1 m-2-3 l-2-3 island-1-2 gutter-1-2 push-0 max-width">
+        <h1 class="push-1-4">The Perfect Match</h1>
+        <p class="push-0 milli">We’re dedicated to finding the right fit for both you and your animal. The more we know about you, the better we can find a forever home for our rescues and a loving lasting connection.</p>
+      </div>
+    </article>
 
-          <article class="grid">
+    <section class="max-length gutter-1-2" id="application" tabindex="0">
 
+      <form action="https://formspree.io/harv0084@algonquinlive.com" method="post" id="form" role="form" tabindex="0">
+        <div class="form island-2 max-length">
+
+          <div class="grid">
             <div class="unit xs-1 s-1 m-1 l-1" tabindex="0">
               <fieldset class="push-0">
                 <legend class="tera island-1-8 push-0">About you</legend>
@@ -155,7 +156,7 @@
                 <input id="work-phone">
               </div>
             </div>
-          </article>
+          </div>
 
           <div class="gutter-1-4 push" tabindex="0">
             <label class="milli" for="household">List all members of the household</label>
@@ -178,7 +179,7 @@
                   <option class="home">House</option>
                   <option class="home">Semi-detached</option>
                   <option class="home">Townhouse</option>
-                  <option class="home">Townhose-style condominium</option>
+                  <option class="home">Townhouse-style condominium</option>
                   <option class="home">Apartment</option>
                   <option class="home">Apartment-style condominium</option>
                   <option class="home">Mobile home</option>
@@ -231,42 +232,48 @@
               <legend class="tera island-1-8 push-0">Pet Information</legend>
             </fieldset>
           </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
-            <div class="push-1-2 island-1-4">
-              <p class="sub">What are you looking for in your rescue?</p>
-              <label class="gutter-1-8 milli" for="dog-age">Age</label>
-              <select class="gutter-1-4 milli" id="dog-age" name="dog-age">
-                <option class="dog-age">Baby (0–6 months)</option>
-                <option class="dog-age">Puppy (6–12 months)</option>
-                <option class="dog-age">Teen (1–2 years)</option>
-                <option class="dog-age">Adult (2-7 years)</option>
-                <option class="dog-age">Senior (8+ years)</option>
-                <option class="dog-age">No preference</option>
-              </select>
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1 l-1" tabindex="0">
+              <div class="push-0 island-1-4">
+                <p class="sub micro">What are you looking for in your rescue?</p>
+              </div>
             </div>
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
-            <div class="push-1-2 island-1-4">
-              <label class="milli gutter-1-8" for="activity">Activity level</label>
-              <select class="gutter-1-4 milli" id="activity" name="province">
-                <option class="activity">Minimal</option>
-                <option class="activity">Moderate</option>
-                <option class="activity">Activce</option>
-                <option class="activity">Very active</option>
-                <option class="activity">No preference</option>
-                <option class="activity">Apartment-style condominium</option>
-              </select>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+              <div class="island-1-4">
+                <label class="gutter-1-8 milli" for="dog-age">Age</label>
+                <select class="gutter-1-4 milli" id="dog-age" name="dog-age">
+                  <option class="dog-age">Baby (0–6 months)</option>
+                  <option class="dog-age">Puppy (6–12 months)</option>
+                  <option class="dog-age">Teen (1–2 years)</option>
+                  <option class="dog-age">Adult (2-7 years)</option>
+                  <option class="dog-age">Senior (8+ years)</option>
+                  <option class="dog-age">No preference</option>
+                </select>
+              </div>
             </div>
-          </div>
-          <div class="gutter-1-4 push" tabindex="0">
-            <label class="milli gutter-1-8" for="current-pets">List all pets owned in the past 10 years</label>
-            <p class="sub pico push-1-8 gutter-1-8">Medical information, vaccines up to date, spayed/neutered </p>
-            <textarea id="current-pets"></textarea>
-          </div>
-          <div class="unit xs-1 s-1 m-1 l-1" tabindex="0">
-            <fieldset class="push-1-2">
-              <legend class="tera island-1-8 push-0">Other Information</legend>
-            </fieldset>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+              <div class="push-1-2 island-1-4">
+                <label class="milli gutter-1-8" for="activity">Activity level</label>
+                <select class="gutter-1-4 milli" id="activity" name="province">
+                  <option class="activity">Minimal</option>
+                  <option class="activity">Moderate</option>
+                  <option class="activity">Activce</option>
+                  <option class="activity">Very active</option>
+                  <option class="activity">No preference</option>
+                  <option class="activity">Apartment-style condominium</option>
+                </select>
+              </div>
+            </div>
+            <div class=" unit xs-1 s-1 m-1 l-1 gutter-1-4 push" tabindex="0">
+              <label class="milli gutter-1-8" for="current-pets">List all pets owned in the past 10 years</label>
+              <p class="sub pico push-1-8 gutter-1-8">Medical information, vaccines up to date, spayed/neutered </p>
+              <textarea id="current-pets"></textarea>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1" tabindex="0">
+              <fieldset class="push-1-2">
+                <legend class="tera island-1-8 push-0">Other Information</legend>
+              </fieldset>
+            </div>
           </div>
 
           <div class="grid push">
@@ -321,7 +328,9 @@
             </div>
           </div>
           <div class="text-center">
-            <button class="btn" type="submit">Submit</button>
+            <div>
+              <button class="btn text-center" type="submit">Submit</button>
+            </div>
           </div>
         </div>
       </form>
