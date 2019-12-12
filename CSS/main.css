@@ -232,6 +232,10 @@ label {
   color: #770547;
 }
 
+.page-number {
+  background-color: #eee0e8;
+}
+
 .page-number a {
   color: #770547;
 }
