@@ -212,6 +212,7 @@ label {
 
 .newsletter .btn {
   background-color: #056577;
+  border: solid 1px #056577;
 }
 
 .newsletter .btn:hover {
@@ -231,9 +232,7 @@ label {
   color: #770547;
 }
 
-.updates {
-  background-color: #eee0e8;
-}
+
 
 .search, .compassion .btn {
   background-color: #770547;
