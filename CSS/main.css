@@ -6,7 +6,7 @@ html {
   height: 40px;
 }
 
-h1, h2, h3, legend{
+h1, h2, h3, legend {
   font-family: Cardo, serif;
 }
 
@@ -164,6 +164,10 @@ input, textarea, select {
   color: #056577;
 }
 
+.sub {
+  color: #056577;
+}
+
 fieldset {
   border: 0;
   border-top: 2px solid #056577;
@@ -189,7 +193,6 @@ label {
 
 .loyal h2 {
   color: #056577;
-
 }
 
 .loyal-img {
@@ -201,12 +204,8 @@ label {
 
 .compassion {
   background-color: #eee0e8;
-
 }
 
-.compassion p, .newsletter p {
-  line-height: 1.2rem;
-}
 .compassion h3 {
   color: #770547;
 }
@@ -228,11 +227,19 @@ label {
   color: #770547;
 }
 
-.search {
+.page-number a {
+  color: #770547;
+}
+
+.updates {
+  background-color: #eee0e8;
+}
+
+.search, .compassion .btn {
   background-color: #770547;
 }
 
-.search:hover {
+.search:hover, .compassion .btn:hover {
   background-color: #ba81a2;
   border: solid 1px #ba81a2;
 }

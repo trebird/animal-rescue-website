@@ -89,7 +89,7 @@
             <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
               <div class="push-1-2 island-1-4">
                 <label class="milli" for="email">Your E-mail</label>
-                <input class="milli gutter-1-2" type="email" id="email" placeholder="your@email.com" aria-label="placeholder-email">
+                <input required class="milli gutter-1-2" type="email" id="email" placeholder="your@email.com" aria-label="placeholder-email">
               </div>
             </div>
 
@@ -159,7 +159,7 @@
 
           <div class="gutter-1-4 push" tabindex="0">
             <label class="milli" for="household">List all members of the household</label>
-            <label class="pico push-1-8" for="household">Please include names, ages, and any allergies </label>
+            <p class="sub pico push-1-8">Please include names, ages, and any allergies </p>
             <textarea id="household"></textarea>
           </div>
 
@@ -169,22 +169,34 @@
             </fieldset>
           </div>
 
-          <div>
-            <div class="push-1-2 island-1-4" tabindex="0">
-              <label for="dropdown">Dropdown</label>
-              <select id="dropdown" name="dropdown">
-                <option class="dropdown">option</option>
-                <option class="dropdown">option</option>
-                <option class="dropdown">option</option>
-                <option class="dropdown">option</option>
+          <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4" tabindex="0">
+            <div class="push-1-2 island-1-4">
+              <label class="milli" for="home">Type of Home</label>
+              <select class="gutter-1-4 milli" id="home" name="province">
+                <option class="home">House</option>
+                <option class="home">Semi-detached</option>
+                <option class="home">Townhouse</option>
+                <option class="home">Townhose-style condominium</option>
+                <option class="home">Apartment</option>
+                <option class="home">Apartment-style condominium</option>
+                <option class="home">Mobile home</option>
+                <option class="home">Other</option>
               </select>
             </div>
           </div>
-
+          <div class="gutter-1-4">
+            <label class="milli push-1-8" for="rent">Do you</label>
+            <input type="radio" id="rent" name="property">
+            <label for="own">Rent</label>
+            <input type="radio" id="own" name="property">
+            <label for="other">Own</label>
+            <input type="radio" id="other" name="property">
+            <label for="other">Other</label>
+          </div>
           <div class="text-center">
             <button class="btn" type="submit">Submit</button>
           </div>
-        </div>
+        </div
       </form>
     </section>
   </main>
@@ -195,9 +207,9 @@
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-2-3 gutter-1-2 text-right">
       <ul class="list-group list-group-inline text-right push-1-8">
-        <li class="unit pad-b-1-2 pad-t-1-2"><a class="pico island-1-2" href="#">Facebook</a></li>
-        <li class="unit pad-b-1-2 pad-t-1-2"><a class="pico island-1-2" href="#">Instagram</a></li>
-        <li class="unit pad-b-1-2 pad-t-1-2"><a class="pico island-1-2" href="#">Twitter</a></li>
+        <li class="unit pad-b-1-2 pad-t-1-2"><a class="pico island-1-4" href="#">Facebook</a></li>
+        <li class="unit pad-b-1-2 pad-t-1-2"><a class="pico island-1-4" href="#">Instagram</a></li>
+        <li class="unit pad-b-1-2 pad-t-1-2"><a class="pico island-1-4" href="#">Twitter</a></li>
       </ul>
     </div>
   </footer>

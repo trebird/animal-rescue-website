@@ -841,16 +841,16 @@ select {
 [type="radio"] + label::before {
   content: " ";
   display: inline-block;
-  height: 1.8em;
+  height: 1em;
   margin-right: .3em;
   position: relative;
   vertical-align: middle;
   top: -.1em;
-  width: 1.8em;
+  width: 1em;
 
-  background-color: #fff;
+  background-color: #dfebee;
   background-size: cover;
-  border: 2px solid #666;
+  border: 2px solid #056577;
   border-radius: 50%;
 
   line-height: inherit;
@@ -862,7 +862,7 @@ select {
 
 [type="radio"]:focus + label::before,
 [type="radio"] + label:focus::before {
-  box-shadow: 0 0 0 3px #000;
+  box-shadow: 0 0 0 3px #056577;
   z-index: 1000;
 }
 
@@ -996,7 +996,7 @@ button,
   display: inline-block;
   margin: 0;
   overflow: visible;
-  padding: .35em 1em .35em;
+  padding: .35em 1em;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
