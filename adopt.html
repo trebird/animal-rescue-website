@@ -171,7 +171,6 @@
 
           <div class="grid">
 
-
             <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
               <div class="push-1-2 island-1-4">
                 <label class="milli" for="home">Type of Home</label>
@@ -201,7 +200,7 @@
                 <input type="radio" id="own" name="property">
                 <label class="milli" for="own">Own</label>
                 <input type="radio" id="other-property" name="property">
-                <label class="milli" for="other">Other</label>
+                <label class="milli" for="other-property">Other</label>
               </fieldset>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
@@ -235,7 +234,8 @@
           <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
             <div class="push-1-2 island-1-4">
               <p class="sub">What are you looking for in your rescue?</p>
-              <select class="gutter-1-4 milli" id="dog-age" name="province">
+              <label class="gutter-1-8 milli"for="dog-age">Age</label>
+              <select class="gutter-1-4 milli" id="dog-age" name="dog-age">
                 <option class="dog-age">Baby (0–6 months)</option>
                 <option class="dog-age">Puppy (6–12 months)</option>
                 <option class="dog-age">Teen (1–2 years)</option>
@@ -247,7 +247,7 @@
           </div>
           <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
             <div class="push-1-2 island-1-4">
-              <label class="milli" for="activity">Activity level</label>
+              <label class="milli gutter-1-8" for="activity">Activity level</label>
               <select class="gutter-1-4 milli" id="activity" name="province">
                 <option class="activity">Minimal</option>
                 <option class="activity">Moderate</option>
@@ -259,8 +259,8 @@
             </div>
           </div>
           <div class="gutter-1-4 push" tabindex="0">
-            <label class="milli" for="current-pets">List all pets owned in the past 10 years</label>
-            <p class="sub pico push-1-8">Medical information, vaccines up to date, spayed/neutered </p>
+            <label class="milli gutter-1-8" for="current-pets">List all pets owned in the past 10 years</label>
+            <p class="sub pico push-1-8 gutter-1-8">Medical information, vaccines up to date, spayed/neutered </p>
             <textarea id="current-pets"></textarea>
           </div>
           <div class="unit xs-1 s-1 m-1 l-1" tabindex="0">
@@ -271,16 +271,15 @@
 
           <div class="grid push">
 
-
             <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
               <div class="push-1-2 island-1-4">
-                <label class="milli" for="name-1">Reference 1 Full Name</label>
+                <label class="milli gutter-1-8" for="name-1">Reference 1 Full Name</label>
                 <input id="name-1">
               </div>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
               <div class="push-1-2 island-1-4">
-                <label class="milli" for="relationship-1">Relationship</label>
+                <label class="milli gutter-1-8" for="relationship-1">Relationship</label>
                 <input id="relationship-1">
               </div>
             </div>
@@ -310,7 +309,7 @@
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
               <div class="push-1-2 island-1-4">
-                <label class="milli" for="email-1">Reference 2 E-mail</label>
+                <label class="milli" for="email-2">Reference 2 E-mail</label>
                 <input required class="milli gutter-1-2" type="email" id="email-2" placeholder="reference2@email.com" aria-label="placeholder-email">
               </div>
             </div>
