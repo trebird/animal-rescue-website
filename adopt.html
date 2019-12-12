@@ -67,7 +67,7 @@
 
             <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
               <div class="push-1-2 island-1-4">
-                <label class="milli" for="dog-name">Name of the dog </label>
+                <label class="milli" for="dog-name">Name of rescue</label>
                 <input id="dog-name">
               </div>
             </div>
@@ -169,34 +169,162 @@
             </fieldset>
           </div>
 
-          <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4" tabindex="0">
+          <div class="grid">
+
+
+            <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+              <div class="push-1-2 island-1-4">
+                <label class="milli" for="home">Type of Home</label>
+                <select class="gutter-1-4 milli" id="home" name="province">
+                  <option class="home">House</option>
+                  <option class="home">Semi-detached</option>
+                  <option class="home">Townhouse</option>
+                  <option class="home">Townhose-style condominium</option>
+                  <option class="home">Apartment</option>
+                  <option class="home">Apartment-style condominium</option>
+                  <option class="home">Mobile home</option>
+                  <option class="home">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+              <div class="push-1-2 island-1-4">
+                <label class="milli" for="other">If other, please describe</label>
+                <input id="other">
+              </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4">
+              <fieldset class="radio-field">
+                <legend class="milli push-0">Property</legend>
+                <input type="radio" id="rent" name="property">
+                <label class="milli" for="rent">Rent</label>
+                <input type="radio" id="own" name="property">
+                <label class="milli" for="own">Own</label>
+                <input type="radio" id="other" name="property">
+                <label class="milli" for="other">Other</label>
+              </fieldset>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+              <div class="push-1-2 island-1-4">
+                <label class="milli" for="other-2">If other, please describe</label>
+                <input id="other-2">
+              </div>
+            </div>
+          </div>
+          <div class="gutter-1-4 push" tabindex="0">
+            <label class="milli" for="environment">Describe your home environment</label>
+            <p class="sub pico push-1-8">Please include size, security, parts of home off limits</p>
+            <textarea id="environment"></textarea>
+          </div>
+          <div class="gutter-1-4 push" tabindex="0">
+            <label class="milli" for="yard">Describe your yard or outdoor space</label>
+            <p class="sub pico push-1-8">Please include size, security, gate, fence</p>
+            <textarea id="yard"></textarea>
+          </div>
+          <div class="gutter-1-4 push" tabindex="0">
+            <label class="milli" for="routine">Describe your planned routine</label>
+            <p class="sub pico push-1-8">Please walking times, primary caregiver, home during the day</p>
+            <textarea id="routine"></textarea>
+          </div>
+
+          <div class="unit xs-1 s-1 m-1 l-1" tabindex="0">
+            <fieldset class="push-1-2">
+              <legend class="tera island-1-8 push-0">Pet Information</legend>
+            </fieldset>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
             <div class="push-1-2 island-1-4">
-              <label class="milli" for="home">Type of Home</label>
-              <select class="gutter-1-4 milli" id="home" name="province">
-                <option class="home">House</option>
-                <option class="home">Semi-detached</option>
-                <option class="home">Townhouse</option>
-                <option class="home">Townhose-style condominium</option>
-                <option class="home">Apartment</option>
-                <option class="home">Apartment-style condominium</option>
-                <option class="home">Mobile home</option>
-                <option class="home">Other</option>
+              <p class="sub">What are you looking for in your rescue?</p>
+              <select class="gutter-1-4 milli" id="dog-age" name="province">
+                <option class="dog-age">Baby (0–6 months)</option>
+                <option class="dog-age">Puppy (6–12 months)</option>
+                <option class="dog-age">Teen (1–2 years)</option>
+                <option class="dog-age">Adult (2-7 years)</option>
+                <option class="dog-age">Senior (8+ years)</option>
+                <option class="dog-age">No preference</option>
               </select>
             </div>
           </div>
-          <div class="gutter-1-4">
-            <label class="milli push-1-8" for="rent">Do you</label>
-            <input type="radio" id="rent" name="property">
-            <label for="own">Rent</label>
-            <input type="radio" id="own" name="property">
-            <label for="other">Own</label>
-            <input type="radio" id="other" name="property">
-            <label for="other">Other</label>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+            <div class="push-1-2 island-1-4">
+              <label class="milli" for="activity">Activity level</label>
+              <select class="gutter-1-4 milli" id="activity" name="province">
+                <option class="activity">Minimal</option>
+                <option class="activity">Moderate</option>
+                <option class="activity">Activce</option>
+                <option class="activity">Very active</option>
+                <option class="activity">No preference</option>
+                <option class="activity">Apartment-style condominium</option>
+              </select>
+            </div>
+          </div>
+          <div class="gutter-1-4 push" tabindex="0">
+            <label class="milli" for="current-pets">List all pets owned in the past 10 years</label>
+            <p class="sub pico push-1-8">Medical information, vaccines up to date, spayed/neutered </p>
+            <textarea id="current-pets"></textarea>
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1" tabindex="0">
+            <fieldset class="push-1-2">
+              <legend class="tera island-1-8 push-0">Other Information</legend>
+            </fieldset>
+          </div>
+
+          <div class="grid push">
+
+
+            <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+              <div class="push-1-2 island-1-4">
+                <label class="milli" for="name-1">Reference 1 Full Name</label>
+                <input id="name-1">
+              </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+              <div class="push-1-2 island-1-4">
+                <label class="milli" for="relationship-1">Relationship</label>
+                <input id="phone-1">
+              </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+              <div class="push-1-2 island-1-4">
+                <label class="milli" for="email-1">Reference 1 E-mail</label>
+                <input required class="milli gutter-1-2" type="email-1" id="email-1" placeholder="reference1@email.com" aria-label="placeholder-email">
+              </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+              <div class="push-1-2 island-1-4">
+                <label class="milli" for="phone">Reference 1 Phone</label>
+                <input id="phone-1">
+              </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+              <div class="push-1-2 island-1-4">
+                <label class="milli" for="name-2">Reference 2 Full Name</label>
+                <input id="name-2">
+              </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+              <div class="push-1-2 island-1-4">
+                <label class="milli" for="relationship-2">Relationship</label>
+                <input id="phone-2">
+              </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+              <div class="push-1-2 island-1-4">
+                <label class="milli" for="email-1">Reference 2 E-mail</label>
+                <input required class="milli gutter-1-2" type="email-1" id="email-2" placeholder="reference2@email.com" aria-label="placeholder-email">
+              </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2" tabindex="0">
+              <div class="push-1-2 island-1-4">
+                <label class="milli" for="phone">Reference 2 Phone</label>
+                <input id="phone-2">
+              </div>
+            </div>
           </div>
           <div class="text-center">
             <button class="btn" type="submit">Submit</button>
           </div>
-        </div
+        </div>
       </form>
     </section>
   </main>
